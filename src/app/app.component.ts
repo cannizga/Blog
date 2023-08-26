@@ -6,10 +6,6 @@ import { Component } from '@angular/core';
     <!--- header--->
     <app-header> </app-header>
 
-    <app-contact></app-contact>
-
-    <app-home></app-home>
-
     <!--- routes get injected here--->
     <router-outlet></router-outlet>
 
@@ -19,5 +15,5 @@ import { Component } from '@angular/core';
   styles: []
 })
 export class AppComponent {
-  title = 'Blog';
+  constructor() {}
 }
